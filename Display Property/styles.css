@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    margin: 5px;
+    /* display: block; */
+    /* display: inline; */
+    display: inline-block;
+}
+#box1{
+    display: none;
+}
