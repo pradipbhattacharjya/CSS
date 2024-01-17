@@ -1,0 +1,14 @@
+.box {
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+@media screen and ( min-width: 250px) and (max-width:300px) {
+    .box {
+        border-radius: 50%;
+    }
+    
+
+}
+    
