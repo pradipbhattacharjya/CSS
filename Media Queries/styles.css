@@ -1,0 +1,14 @@
+.box {
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+@media screen and ( width: 300px) {
+    .box {
+        background-color: brown;
+    }
+    
+
+}
+    
