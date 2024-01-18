@@ -1,0 +1,27 @@
+.box {
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+   
+    position: relative;
+    top: 50px;
+    left:50px;
+    transition: all 1s ease-in-out;
+    
+  
+    
+}
+#box1{
+    background-color:lime;
+}
+#box1:hover {
+    transform: skew(45deg);
+}
+#box2{
+    background-color:blueviolet;
+}
+#box2:hover {
+    transform: skew(180deg);
+}
