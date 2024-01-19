@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* h1:hover{
+    background-color: rgb(233, 187, 127);
+} */
+button:focus{
+    
+    background-color: aqua;
+}
+input:disabled{
+      background-color: blue;
+}
+div:first-child{
+    background-color: blueviolet;
+}
+div:last-child{
+    background-color: rgb(252, 101, 121);
+}
+div:nth-child(1n){
+    background-color: rgb(195, 35, 142);
+}
+/* special */
+h1::after{
+    content: "After!";
+    color: red;
+    height: 20;
+    width: 20;
+}

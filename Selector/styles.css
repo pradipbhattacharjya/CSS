@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* h1 {
+    background-color: #e3d3d3;
+} */
+.bg-orange {
+    background-color: rgb(227, 152, 11);
+}
+#bg-red{
+    background-color: rgb(229, 102, 102);
+}
+a[target="_blank"]{
+    background-color: rgb(49, 193, 193);
+    color: aliceblue;
+}
+
+/* grouping */
+h1,h2,h3 {
+    background-color: rgb(53, 215, 161);
+}
+ul li {
+    background-color: rgb(109, 68, 221);
+}
+header > a {
+    background-color: rgb(174, 209, 139);
+}
+img ~ p{
+    background-color: brown;
+
+}
+img ~ div p{
+    background-color: blue;
+}
