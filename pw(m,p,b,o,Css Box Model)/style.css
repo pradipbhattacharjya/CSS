@@ -1,0 +1,49 @@
+/* h1{
+    background-color: aqua;
+    color: #e7e7e7;
+    margin: 20px;
+    padding: 20px;
+} */
+.elementTwo{
+     /* margin: 10px 20px 30px 40px; */
+     /* margin: 20px 40px; */
+     /* margin-top: 10px;
+     margin-right: 20px;
+     margin-bottom: 30px;
+     margin-left: 40px; */
+     margin: 40px 20px;
+
+} 
+.elementOne{
+    margin: 10px 0px;
+}
+.boxTwo {
+    padding: 10px 20px 30px 40px;
+}
+.solid{
+     border-top-width:  10px;
+    border-bottom-width: 5px;
+    border-color: rgb(28, 31, 31);
+    /* border-radius: 4px;  */
+    border:solid 3px purple ;
+
+    
+    border-style: solid;
+}
+.mixup{
+    border-top-style: dashed;
+    border-right-style: dotted;
+    border-block-start: solid;
+    border-left-style: inset;
+}
+.dotted{
+    outline-style: dotted;
+
+}
+.offset{
+    margin: 3rem;
+    outline-offset: 10px;
+    outline-style:  solid;
+    outline-color: gold;
+    border-style: solid;
+}
