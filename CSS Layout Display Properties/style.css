@@ -1,0 +1,17 @@
+h3,p,li{
+    display: block;
+    background-color: brown;
+    color: aliceblue;
+    border: 5px solid #acac07;
+    padding: 10px;
+}
+.item{
+    display:inline-block;
+    background-color: brown;
+    color: aliceblue;
+    border: 5px solid #acac07;
+    padding: 10px;
+}
+.item2{
+    height: 100px;
+}
